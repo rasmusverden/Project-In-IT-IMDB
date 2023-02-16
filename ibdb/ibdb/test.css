@@ -1,0 +1,82 @@
+@import '../resources/fonts/inter.css';
+#home-additional-features {
+    background: var(--bg2-alt);
+}
+#home-additional-features .page-section-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#home-additional-features .page-section {
+    padding: 48px 0;
+}
+#additional-features {
+    max-width: 762px;
+    width: 100%;
+    margin: 48px 0;
+}
+.additional-feature {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background: var(--bg3-alt);
+    margin: 2px;
+    width: 250px;
+}
+.additional-feature h5 {
+    margin-bottom: 4px;
+    color: var(--text-normal);
+    font-size: 18px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.additional-feature p {
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 14px;
+}
+.additional-feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    height: auto;
+    width: 24px;
+    margin-bottom: 10px;
+}
+.additional-feature-icon svg {
+    fill: var(--accent);
+    width: 100%;
+    height: auto;
+}
+:root {
+    --bg1: #040405;
+    --bg3: #14151b;
+    --bg4: #20212b;
+    --bg2: #0c0d10;
+    --bg2-alt: #101116;
+    --bg3-alt: #191a21;
+    --accent: #3a71c1;
+    --accent-hover: #2f5b9d;
+    --accent-faded: rgba(58, 113, 193, 0.4);
+    --danger: #c13a3a;
+    --danger-hover: #992e2e;
+    --danger-faded: rgb(193, 58, 58, 0.4);
+    --text-light: #f1f1f1;
+    --text-normal: #bfc4c9;
+    --text-muted: #95989d;
+    --text-link: #5a88ce;
+}
+*,
+*::before,
+*::after {
+    outline: none;
+    box-sizing: border-box;
+}
+section {
+    display: block;
+}
